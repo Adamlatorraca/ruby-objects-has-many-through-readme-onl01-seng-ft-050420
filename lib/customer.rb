@@ -14,7 +14,7 @@ class Customer
     @@all
   end
 
-  def new_meal
+  def new_meal(@customer, waiter, tip)
     binding.pry
   end
 end
