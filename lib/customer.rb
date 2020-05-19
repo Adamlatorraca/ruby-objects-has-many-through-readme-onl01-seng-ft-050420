@@ -1,3 +1,5 @@
+require "pry"
+
 class Customer
   attr_accessor :name, :age
   @@all =[]
@@ -13,6 +15,6 @@ class Customer
   end
 
   def new_meal
-    @customer = new.meal
+    binding.pry
   end
 end
