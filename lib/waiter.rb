@@ -8,4 +8,8 @@ class Waiter
     @exp = exp
     @@all << self
   end
+
+  def self.all
+    @@all
+  end
 end
