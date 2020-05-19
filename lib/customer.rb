@@ -13,6 +13,6 @@ class Customer
   end
 
   def new_meal(customer, waiter, tip)
-
+    @customer = new.meal
   end
 end
